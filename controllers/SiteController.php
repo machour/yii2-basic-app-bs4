@@ -65,6 +65,16 @@ class SiteController extends Controller
     }
 
     /**
+     * Displays tabs
+     * 
+     * @return string
+     */
+    public function actionTabs()
+    {
+        return $this->render('tabs');
+    }
+
+    /**
      * Login action.
      *
      * @return Response|string
